@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Strapi build cache
+.cache/
+.tmp/
+build/
+.strap/
+
+# Next.js build output
+.next/
+out/
+
+# Docker ignores
+**/node_modules
+**/.next
+**/.cache
+**/.tmp
+.DS_Store
+
+# Environment files
+.env
+
+#TypeScript
+dist/
+*.tsbuildinfo
